@@ -9,4 +9,13 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
   directUrl = env("DIRECT_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+model User{
+  id Int @id @default(autoincrement())
+  nom String @db.VarChar(35)
+  prenom String @db.VarChar(60)
+  email String @unique
+  hash String
+  salt String
 }

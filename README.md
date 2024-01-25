@@ -1,13 +1,18 @@
-# Insync
-The API of the Insync mobile app. An app made to schedule and sync all of your social media content in one place.
-## Key Features
+# InSync
+> Manage your social media content and statistics via the Insync mobile app powered by this API.
+## About
+This project uses [Express](https://expressjs.com/),  a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
-- Post scheduling**: Users can schedule posts to their social media accounts, saving time and maintaining a consistent online presence.
+## Getting started
+1. Install [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) on your machine.
+2. Clone the project directory.
+3. Navigate to the project directory.
+4. Install the packages:
+ ```
+    npm install
+ ```
 
-- Multiple Account Management**: Insync API supports the management of multiple social media accounts, giving users a complete overview of their online activities.
-
-- **Performance Tracking**: Users can track and analyze the performance of their publications, including user engagement, reach statistics, and much more.
-
-- Data Security**: The Insync API ensures the security of user data using robust encryption protocols and advanced security measures.
-
-- Extensibility**: The API is designed to be extensible, making it easy to add new features and integrate with other systems.
+5. Run the project:
+```
+    npm start
+ ```

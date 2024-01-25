@@ -1,6 +1,6 @@
-{
+	{
 	"name": "insync",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"description": "The API of the Insync mobile app. An app made to schedule and sync all of your social media content in one place.",
 	"main": "app.ts",
 	"scripts": {
@@ -22,6 +22,7 @@
 		"passport-local": "^1.0.0"
 	},
 	"devDependencies": {
+		"@types/express": "^4.17.21",
 		"@types/node": "^20.8.9",
 		"nodemon": "^3.0.1",
 		"prisma": "^5.5.2",
